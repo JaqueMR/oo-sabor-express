@@ -39,22 +39,23 @@ Este projeto foi desenvolvido como parte do curso **"Python Web: Avance na Orien
 
 3.Crie e ative um ambiente virtual:
   <pre><code>
-python -m venv venv
-source venv/bin/activate  # Para Linux/Mac
-venv\Scripts\activate  # Para Windows
+  python -m venv venv
+  source venv/bin/activate  # Para Linux/Mac
+  venv\Scripts\activate  # Para Windows
  </code></pre>
  
 4. Instale as dependências:
-<pre><code>
-pip install -r requirements.txt
- </code></pre>
+  <pre><code>
+  pip install -r requirements.txt
+   </code></pre>
 5.Execute o projeto:
-<pre><code>
-uvicorn main:app --reload
- </code></pre>
+  <pre><code>
+  uvicorn main:app --reload
+   </code></pre>
 6.
+   <pre><code>
   http://127.0.0.1:8000
-
+   </code></pre>
 
 
 
