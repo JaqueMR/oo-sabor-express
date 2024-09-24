@@ -25,28 +25,33 @@ Este projeto foi desenvolvido como parte do curso **"Python Web: Avance na Orien
 
 ## Como Executar o Projeto
 
+# Como Executar o Projeto
+
 1. Clone este repositório:
-<pre><code>
+   <pre><code>
    git clone https://github.com/seu-usuario/nome-do-projeto.git
-</code></pre>code>
+   </code></pre>
+
 2. Navegue até o diretório do projeto:
-<pre><code>
-cd nome-do-projeto
-</code></pre>code>
+   <pre><code>
+   cd nome-do-projeto
+   </code></pre>
+
 3.Crie e ative um ambiente virtual:
-<pre><code>
+  <pre><code>
 python -m venv venv
 source venv/bin/activate  # Para Linux/Mac
 venv\Scripts\activate  # Para Windows
-</code></pre>code>
+ </code></pre>
+ 
 4. Instale as dependências:
 <pre><code>
 pip install -r requirements.txt
-</pre>code>
+ </code></pre>
 5.Execute o projeto:
 <pre><code>
 uvicorn main:app --reload
-</code></pre>code>
+ </code></pre>
 6.
   http://127.0.0.1:8000
 
