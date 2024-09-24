@@ -1,12 +1,60 @@
+# Projeto Desenvolvido no Curso "Python Web: Avance na Orientação a Objetos"
+
+Este projeto foi desenvolvido como parte do curso **"Python Web: Avance na Orientação a Objetos"** da Alura. O objetivo do curso foi aprofundar os conhecimentos em **Python** com foco em **Orientação a Objetos** e desenvolvimento de **APIs**.
+
+## Aprendizados e Técnicas Implementadas
+
+- **Herança e Classes Abstratas**: Estruturei o código de forma modular, utilizando herança para criar classes base e derivadas, facilitando a reutilização de código e organização.
+  
+- **Polimorfismo**: Aprendi a usar o polimorfismo para tratar diferentes classes por meio de uma única interface, tornando o código mais flexível e fácil de estender.
+  
+- **Integração com APIs Externas**: Conectei o projeto a APIs externas, permitindo que ele interaja com outros serviços de maneira eficiente, o que é crucial para o desenvolvimento de aplicações modernas.
+
+- **Manipulação de Arquivos JSON**: Implementei a criação e manipulação de arquivos JSON para gerenciar dados de forma prática e organizada.
+
+- **Ambientes Virtuais**: Aprendi a criar e ativar ambientes virtuais com `venv`, permitindo gerenciar as dependências de cada projeto de forma isolada, garantindo a consistência das bibliotecas utilizadas.
+
+- **Desenvolvimento com FastAPI**: Utilizei o **FastAPI** para desenvolver APIs de maneira rápida e eficiente, aproveitando recursos como a documentação automática e suporte ao assincronismo.
+
+## Tecnologias Utilizadas
+
+- **Python**: Linguagem de programação utilizada para desenvolvimento do projeto.
+- **FastAPI**: Framework utilizado para criar APIs rápidas e eficientes.
+- **JSON**: Para armazenamento e manipulação de dados.
+- **venv**: Para gerenciar ambientes virtuais e as dependências do projeto.
+
+## Como Executar o Projeto
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-projeto.git
+
+2. Navegue até o diretório do projeto:
+
+cd nome-do-projeto
 
 
-Este projeto foi desenvolvido no curso " Python Web: Avance na Orientação a Objetos", da Alura.
+3.Crie e ative um ambiente virtual:
 
-Neste curso, tive a oportunidade de aprofundar meus conhecimentos em Python focando em conceitos fundamentais da Orientação a Objetos e desenvolvimento de APIs. Aprendi a implementar técnicas que são essenciais para criar aplicações web.
+   python -m venv venv
+  source venv/bin/activate  # Para Linux/Mac
+  venv\Scripts\activate  # Para Windows
 
-- Implementação de Herança e Classes Abstratas: Entendi como estruturar meu código de maneira modular, utilizando herança para criar classes base e derivadas.
-- Domínio do Polimorfismo: Explorei como diferentes classes podem ser tratadas como uma única interface, facilitando a flexibilidade do código.
-- Integração com Aplicações Externas: Aprendi a conectar meus projetos Python a APIs externas, o que é crucial para criar aplicações que interagem com outros serviços.
-- Manipulação de Arquivos JSON: Compreendi como criar e trabalhar com arquivos JSON de forma prática, permitindo uma melhor gestão de dados.
-- Criação e Ativação de Ambientes Virtuais: Aprendi a usar venv para gerenciar as dependências dos meus projetos, garantindo que cada aplicação tenha suas próprias bibliotecas.
-- Uso do FastAPI: Aprendi a utilizar o FastAPI para desenvolver APIs de forma rápida e eficiente, aproveitando recursos como documentação automática e suporte a assincronismo.
+
+4. Instale as dependências:
+   pip install -r requirements.txt
+
+
+5.Execute o projeto:
+
+  uvicorn main:app --reload
+
+6.
+  http://127.0.0.1:8000
+
+
+
+
+
+
+
