@@ -52,9 +52,9 @@ Este projeto foi desenvolvido como parte do curso **"Python Web: Avance na Orien
   <pre><code>
   uvicorn main:app --reload
    </code></pre>
-6.
+6.Acesse a API no navegador através do endereço:
    <pre><code>
-  http://127.0.0.1:8000
+    http://127.0.0.1:8000
    </code></pre>
 
 
