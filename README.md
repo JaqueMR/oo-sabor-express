@@ -38,11 +38,11 @@ Este projeto foi desenvolvido como parte do curso **"Python Web: Avance na Orien
    </code></pre>
 
 3. Crie e ative um ambiente virtual:
-  <pre><code>
-  python -m venv venv
-  source venv/bin/activate  # Para Linux/Mac
-  venv\Scripts\activate  # Para Windows
-  </code></pre>
+   <pre><code>
+   python -m venv venv
+   source venv/bin/activate  # Para Linux/Mac
+   venv\Scripts\activate  # Para Windows
+   </code></pre>
  
 4. Instale as dependências:
    <pre><code>
