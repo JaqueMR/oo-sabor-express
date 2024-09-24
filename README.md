@@ -37,7 +37,7 @@ Este projeto foi desenvolvido como parte do curso **"Python Web: Avance na Orien
    cd nome-do-projeto
    </code></pre>
 
-3.Crie e ative um ambiente virtual:
+3. Crie e ative um ambiente virtual:
   <pre><code>
   python -m venv venv
   source venv/bin/activate  # Para Linux/Mac
@@ -48,11 +48,11 @@ Este projeto foi desenvolvido como parte do curso **"Python Web: Avance na Orien
   <pre><code>
   pip install -r requirements.txt
    </code></pre>
-5.Execute o projeto:
+5. Execute o projeto:
   <pre><code>
   uvicorn main:app --reload
    </code></pre>
-6.Acesse a API no navegador através do endereço:
+6. Acesse a API no navegador através do endereço:
    <pre><code>
     http://127.0.0.1:8000
    </code></pre>
