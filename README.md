@@ -14,7 +14,7 @@ Este projeto foi desenvolvido como parte do curso **"Python Web: Avance na Orien
 
 - **Ambientes Virtuais**: Aprendi a criar e ativar ambientes virtuais com `venv`, permitindo gerenciar as dependências de cada projeto de forma isolada, garantindo a consistência das bibliotecas utilizadas.
 
-- **Desenvolvimento com FastAPI**: Utilizei o **FastAPI** para desenvolver APIs de maneira rápida e eficiente, aproveitando recursos como a documentação automática e suporte ao assincronismo.
+- **Desenvolvimento com FastAPI**: Utilizei o **FastAPI** para desenvolver APIs de maneira rápida, aproveitando recursos como a documentação automática e suporte ao assincronismo.
 
 ## Tecnologias Utilizadas
 
