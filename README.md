@@ -42,15 +42,15 @@ Este projeto foi desenvolvido como parte do curso **"Python Web: Avance na Orien
   python -m venv venv
   source venv/bin/activate  # Para Linux/Mac
   venv\Scripts\activate  # Para Windows
- </code></pre>
+  </code></pre>
  
 4. Instale as dependências:
-  <pre><code>
-  pip install -r requirements.txt
+   <pre><code>
+   pip install -r requirements.txt
    </code></pre>
 5. Execute o projeto:
-  <pre><code>
-  uvicorn main:app --reload
+   <pre><code>
+   uvicorn main:app --reload
    </code></pre>
 6. Acesse a API no navegador através do endereço:
    <pre><code>
